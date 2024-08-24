@@ -11,7 +11,7 @@ export default function Footer() {
         </p>
         <div className="flex space-x-4">
           <Link
-            href="https://www.linkedin.com/in/seu-perfil"
+            href="https://www.linkedin.com/in/marcia-agostinho-developer/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white"
@@ -19,7 +19,7 @@ export default function Footer() {
             <FaLinkedin size={24} />
           </Link>
           <Link
-            href="https://github.com/seu-usuario"
+            href="https://github.com/agostinhomarcia"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white"

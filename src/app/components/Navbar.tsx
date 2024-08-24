@@ -18,7 +18,7 @@ export default function Navbar() {
           href="/"
           className="flex items-center text-white text-2xl font-bold"
         >
-          <FaLaptopCode size={28} className="mr-2" />
+          <FaLaptopCode size={35} className="mr-2" />
         </Link>
         <div className="md:hidden">
           <button
@@ -44,17 +44,18 @@ export default function Navbar() {
             >
               Sobre
             </Link>
-            <Link
-              href="/contact"
-              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
-            >
-              Contato
-            </Link>
+
             <Link
               href="/projects"
               className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
             >
               Projetos
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
+            >
+              Contato
             </Link>
           </div>
         </div>

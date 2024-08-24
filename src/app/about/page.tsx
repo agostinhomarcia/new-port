@@ -25,13 +25,9 @@ export default function About() {
             Olá, eu sou a Márcia
           </h1>
           <p className="text-gray-700 mb-6">
-            Sou apaixonada por tecnologia e por isso resolvi me tornar
-            programadora, realizando minha transição de carreira. Na
-            programação, tenho sólidos conhecimentos de Front-end com
-            tecnologias como: HTML, CSS e JavaScript, inclusive realizei alguns
-            projetos utilizando essas tecnologias. Atualmente, estou estudando
-            Back-end e realizando projetos de qualidade e alta performance com
-            React, Node.js e banco de dados.
+            Sou um desenvolvedor front-end com experiência em React | Next.js |
+            React Native . Tenho paixão por criar interfaces de usuário bonitas
+            e funcionais.
           </p>
 
           <h2 className="text-xl md:text-2xl font-bold mb-4">

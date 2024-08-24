@@ -10,7 +10,7 @@ export default function Home() {
         className="relative min-h-screen flex flex-col items-center justify-center bg-cover bg-center p-4"
         style={{ backgroundImage: "url('/herobg.png')" }}
       >
-        <div className="absolute top-0 left-0 w-20 h-20 md:w-32 md:h-32">
+        <div className="absolute top-12 left-12 w-20 h-20 md:w-32 md:h-32">
           <Image
             src="/web.png"
             alt="Globo Girando"
@@ -19,7 +19,7 @@ export default function Home() {
             className="animate-spin-slow"
           />
         </div>
-        <div className="absolute top-0 right-0 w-20 h-20 md:w-32 md:h-32">
+        <div className="absolute top-12 right-12 w-20 h-20 md:w-32 md:h-32">
           <Image
             src="/web2.png"
             alt="Globo Girando"
@@ -28,7 +28,7 @@ export default function Home() {
             className="animate-spin-slow"
           />
         </div>
-        <div className="absolute bottom-0 left-0 w-20 h-20 md:w-32 md:h-32">
+        <div className="absolute bottom-12 left-12 w-20 h-20 md:w-32 md:h-32">
           <Image
             src="/mobile.png"
             alt="Globo Girando"
@@ -37,7 +37,7 @@ export default function Home() {
             className="animate-spin-slow"
           />
         </div>
-        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-32 md:h-32">
+        <div className="absolute bottom-12 right-12 w-20 h-20 md:w-32 md:h-32">
           <Image
             src="/creator.png"
             alt="Globo Girando"
