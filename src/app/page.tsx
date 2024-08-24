@@ -15,28 +15,28 @@ export default function Home() {
           alt="Globo Girando"
           width={100}
           height={100}
-          className="absolute top-0 left-0 m-4 animate-spin-slow"
+          className="absolute top-10 left-4 m-4 animate-spin-slow"
         />
         <Image
           src="/web2.png"
           alt="Globo Girando"
           width={100}
           height={100}
-          className="absolute top-0 right-0 m-4 animate-spin-slow"
+          className="absolute top-10 right-4 m-4 animate-spin-slow"
         />
         <Image
-          src="/web2.png"
+          src="/creator.png"
           alt="Globo Girando"
           width={100}
           height={100}
-          className="absolute bottom-0 left-0 m-4 animate-spin-slow"
+          className="absolute bottom-10 left-4 m-4 animate-spin-slow"
         />
         <Image
-          src="/web.png"
+          src="/mobile.png"
           alt="Globo Girando"
           width={100}
           height={100}
-          className="absolute bottom-0 right-0 m-4 animate-spin-slow"
+          className="absolute bottom-10 right-4 m-4 animate-spin-slow"
         />
 
         {/* Conteúdo Principal */}

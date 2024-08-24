@@ -7,9 +7,9 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-gray-300 p-8">
+    <div className="min-h-screen bg-gray-500 p-8">
       <motion.h1
-        className="text-4xl font-bold text-center text-gray-800 mb-8"
+        className="text-4xl font-bold text-center text-gray-300 mb-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}

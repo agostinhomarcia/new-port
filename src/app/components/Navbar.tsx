@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaLaptopCode } from "react-icons/fa";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,8 +14,11 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-white text-2xl font-bold">
-          Logo
+        <Link
+          href="/"
+          className="flex items-center text-white text-2xl font-bold"
+        >
+          <FaLaptopCode size={35} className="mr-2" />
         </Link>
         <div className="md:hidden">
           <button
@@ -38,16 +41,16 @@ export default function Navbar() {
               Sobre
             </Link>
             <Link
-              href="/contact"
-              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
-            >
-              Contato
-            </Link>
-            <Link
               href="/projects"
               className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
             >
               Projetos
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
+            >
+              Contato
             </Link>
           </div>
         </div>

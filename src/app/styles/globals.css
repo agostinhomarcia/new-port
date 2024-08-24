@@ -74,10 +74,36 @@
 }
 .bg-zoom-animation {
   animation: zoomBackground 20s infinite alternate ease-in-out;
-  z-index: 10; /* Valor baixo para garantir que o conteúdo fique acima */
+  z-index: 10;
 }
 
 .animated-text,
 .cta-button {
-  z-index: 30; /* Valor alto para garantir que esses elementos fiquem acima do fundo */
+  z-index: 30;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  animation: fadeIn 1s ease-out;
+}
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 10s linear infinite;
 }
