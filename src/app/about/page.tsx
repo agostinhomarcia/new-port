@@ -6,14 +6,12 @@ import { SiNextdotjs, SiTailwindcss, SiJavascript } from "react-icons/si";
 
 export default function About() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-300 p-4 md:p-8">
-      {/* Container Principal */}
+    <div className="min-h-screen flex items-center justify-center bg-gray-500 p-4 md:p-8">
       <div className="flex flex-col md:flex-row items-center bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg w-full max-w-4xl">
-        {/* Coluna Esquerda: Imagem com Movimento */}
         <div className="flex justify-center items-center mb-8 md:mb-0 md:w-1/2">
           <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48">
             <Image
-              src="/web.png" // Caminho para a imagem
+              src="/web.png"
               alt="Imagem Rotacionando"
               layout="fill"
               objectFit="cover"
@@ -22,7 +20,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* Coluna Direita: Texto e Tecnologias */}
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-2xl md:text-3xl font-bold mb-4">
             Olá, eu sou a Márcia
@@ -37,7 +34,6 @@ export default function About() {
             React, Node.js e banco de dados.
           </p>
 
-          {/* Seção de Tecnologias */}
           <h2 className="text-xl md:text-2xl font-bold mb-4">
             Tecnologias que utilizo
           </h2>
