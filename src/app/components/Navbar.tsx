@@ -18,14 +18,18 @@ export default function Navbar() {
           href="/"
           className="flex items-center text-white text-2xl font-bold"
         >
-          <FaLaptopCode size={35} className="mr-2" />
+          <FaLaptopCode size={28} className="mr-2" />
         </Link>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none flex items-center"
           >
-            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            {isOpen ? (
+              <FaTimes size={24} className="ml-4" />
+            ) : (
+              <FaBars size={24} />
+            )}
           </button>
         </div>
         <div
@@ -41,16 +45,16 @@ export default function Navbar() {
               Sobre
             </Link>
             <Link
-              href="/projects"
-              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
-            >
-              Projetos
-            </Link>
-            <Link
               href="/contact"
               className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
             >
               Contato
+            </Link>
+            <Link
+              href="/projects"
+              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
+            >
+              Projetos
             </Link>
           </div>
         </div>
