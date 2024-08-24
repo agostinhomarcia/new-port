@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -10,8 +12,22 @@ export default function Projects() {
         Meus Projetos
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-2">Projeto 1</h2>
+        {/* Projeto 1 */}
+        <motion.div
+          className="bg-white shadow-md rounded-lg p-6"
+          whileHover={{ scale: 1.05 }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Image
+            src="/project1.png"
+            alt="Projeto 1"
+            className="w-full h-48 object-cover rounded-md mb-4"
+            width={150}
+            height={150}
+          />
+          <h2 className="text-2xl font-bold mb-2">DarkBeats</h2>
           <p className="text-gray-600 mb-4">Descrição do Projeto 1.</p>
           <div className="flex space-x-4">
             <Link
@@ -31,14 +47,28 @@ export default function Projects() {
               <FaGithub size={24} />
             </Link>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-2">Projeto 2</h2>
+        {/* Projeto 2 */}
+        <motion.div
+          className="bg-white shadow-md rounded-lg p-6"
+          whileHover={{ scale: 1.05 }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Image
+            src="/project2.png" // Substitua com o caminho da imagem real
+            alt="Projeto 2"
+            className="w-full h-48 object-cover rounded-md mb-4"
+            width={150}
+            height={150}
+          />
+          <h2 className="text-2xl font-bold mb-2">FSW Barber</h2>
           <p className="text-gray-600 mb-4">Descrição do Projeto 2.</p>
           <div className="flex space-x-4">
             <Link
-              href="https://cart-mks.vercel.app/"
+              href="https://fsw-barber-lilac.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800"
@@ -46,7 +76,7 @@ export default function Projects() {
               <FaExternalLinkAlt size={24} />
             </Link>
             <Link
-              href="https://github.com/seu-usuario/repositorio-projeto-2"
+              href="https://github.com/agostinhomarcia/Fsw-Barber"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800"
@@ -54,7 +84,7 @@ export default function Projects() {
               <FaGithub size={24} />
             </Link>
           </div>
-        </div>
+        </motion.div>
 
         {/* Adicione mais cartões de projeto conforme necessário */}
       </div>
