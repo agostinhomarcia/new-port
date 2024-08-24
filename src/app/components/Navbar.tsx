@@ -39,9 +39,15 @@ export default function Navbar() {
             </Link>
             <Link
               href="/contact"
-              className="text-gray-300 hover:text-white block mt-2 md:mt-0"
+              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
             >
               Contato
+            </Link>
+            <Link
+              href="/projects"
+              className="text-gray-300 hover:text-white block mt-2 md:mt-0 md:mr-4"
+            >
+              Projetos
             </Link>
           </div>
         </div>

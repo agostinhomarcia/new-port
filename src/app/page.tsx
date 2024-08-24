@@ -1,15 +1,56 @@
 "use client";
 
-import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <div
-        className="min-h-screen flex items-center justify-center bg-cover bg-center"
+        className="relative min-h-screen flex flex-col items-center justify-center bg-cover bg-center overflow-hidden"
         style={{ backgroundImage: "url('/herobg.png')" }}
       >
+        {/* Imagens nos Cantos da Tela */}
+        <Image
+          src="/web.png"
+          alt="Globo Girando"
+          width={100}
+          height={100}
+          className="absolute top-0 left-0 m-4 animate-spin-slow"
+        />
+        <Image
+          src="/web2.png"
+          alt="Globo Girando"
+          width={100}
+          height={100}
+          className="absolute top-0 right-0 m-4 animate-spin-slow"
+        />
+        <Image
+          src="/web2.png"
+          alt="Globo Girando"
+          width={100}
+          height={100}
+          className="absolute bottom-0 left-0 m-4 animate-spin-slow"
+        />
+        <Image
+          src="/web.png"
+          alt="Globo Girando"
+          width={100}
+          height={100}
+          className="absolute bottom-0 right-0 m-4 animate-spin-slow"
+        />
+
+        {/* Conteúdo Principal */}
         <div className="text-center text-white bg-black bg-opacity-60 p-8 rounded-lg animated-text">
+          <div className="flex justify-center mb-8">
+            {/* Imagem do Globo Girando */}
+            <Image
+              src="/web.png"
+              alt="Globo Girando"
+              width={150}
+              height={150}
+              className="animate-spin-slow"
+            />
+          </div>
           <h1 className="text-5xl font-bold mb-4">Olá, Eu sou a Márcia</h1>
           <p className="text-2xl font-semibold">
             Desenvolvedora Front-End | Criadora de Interfaces Incríveis |
@@ -18,12 +59,6 @@ export default function Home() {
           <p className="mt-4 text-lg">
             Transformando ideias em experiências digitais incríveis.
           </p>
-          <Link
-            href="/projects"
-            className="mt-8 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition duration-300 cta-button"
-          >
-            Veja meus Projetos
-          </Link>
         </div>
       </div>
     </>
