@@ -47,6 +47,24 @@ export default function Projects() {
               <FaGithub size={24} />
             </Link>
           </div>
+          <div className="flex space-x-4">
+            <Link
+              href="https://symphonious-nougat-674f67.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800"
+            >
+              <FaExternalLinkAlt size={24} />
+            </Link>
+            <Link
+              href="https://agostinhomarcia.github.io/projeto-burguer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800"
+            >
+              <FaGithub size={24} />
+            </Link>
+          </div>
         </motion.div>
 
         {/* Projeto 2 */}
