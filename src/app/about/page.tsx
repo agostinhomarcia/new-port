@@ -35,7 +35,7 @@ export default function About() {
       }}
     >
       <div className="min-h-screen flex items-center justify-center p-4 md:p-8">
-        <div className="flex flex-col md:flex-row items-center bg-white p-6 md:p-8 rounded-lg shadow-lg w-full max-w-5xl">
+        <div className="flex flex-col md:flex-row items-center bg-slate-300 p-6 md:p-8 rounded-lg shadow-lg w-full max-w-5xl">
           {/* Coluna Esquerda: Imagem com Movimento */}
           <div className="flex justify-center items-center mb-8 md:mb-0 md:w-1/2">
             <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48">

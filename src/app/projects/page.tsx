@@ -16,7 +16,7 @@ export default function Projects() {
     >
       <div className="min-h-screen p-8">
         <motion.h1
-          className="text-4xl font-bold text-center text-gray-300 mb-8"
+          className="text-4xl font-bold text-center text-gray-100 mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -27,7 +27,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {/* Projeto 1 */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
@@ -73,7 +73,7 @@ export default function Projects() {
 
           {/* Projeto 2 - Sem Flip */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
@@ -119,7 +119,7 @@ export default function Projects() {
 
           {/* Projeto 3 */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
@@ -164,7 +164,7 @@ export default function Projects() {
           </motion.div>
           {/* Projeto 4 */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
@@ -209,7 +209,7 @@ export default function Projects() {
           </motion.div>
           {/* Projeto 5 */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
@@ -255,7 +255,7 @@ export default function Projects() {
 
           {/* Projeto 6 */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
@@ -301,7 +301,7 @@ export default function Projects() {
 
           {/* Projeto 7 */}
           <motion.div
-            className="bg-white shadow-md rounded-lg p-6"
+            className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",

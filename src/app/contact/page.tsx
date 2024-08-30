@@ -26,7 +26,7 @@ export default function Contact() {
       }}
     >
       <div className="min-h-screen w-full max-w-5xl flex items-center justify-center p-8">
-        <div className="bg-white shadow-md rounded-lg p-6 max-w-lg w-full">
+        <div className="bg-slate-300 shadow-md rounded-lg p-6 max-w-lg w-full">
           <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
             Entre em Contato
           </h1>
