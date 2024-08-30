@@ -31,8 +31,8 @@ Política de Privacidade: Página de política de privacidade explicando o uso d
 
 #### 📂 Estrutura do Projeto
 
-bash
-Copiar código
+```
+
 my-portfolio/
 ├── public/
 │ ├── favicon.png
@@ -58,6 +58,7 @@ my-portfolio/
 ├── README.md
 ├── tsconfig.json
 └── vercel.json
+```
 
 #### 🧩 Instalação e Uso
 
