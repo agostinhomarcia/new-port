@@ -12,7 +12,7 @@ export default function Contact() {
       .value;
 
     const whatsappMessage = `Nome: ${name}%0AEmail: ${email}%0AMensagem: ${message}`;
-    const whatsappURL = `https://wa.me/{seu-numero-telefone}?text=${whatsappMessage}`;
+    const whatsappURL = `https://w.app/Uh6sCc?text=${whatsappMessage}`;
 
     window.open(whatsappURL, "_blank");
   };
