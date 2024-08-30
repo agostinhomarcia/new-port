@@ -1,11 +1,10 @@
-// src/components/Footer.tsx
 import Link from "next/link";
 import { FaLinkedin, FaGithub, FaArrowUp } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 py-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
         {/* Seção 1: Sobre */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Sobre</h3>
@@ -68,11 +67,13 @@ export default function Footer() {
       </div>
 
       {/* Seção de Direitos Autorais e Voltar ao Topo */}
-      <div className="mt-6 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center">
-        <p className="text-sm">© 2024 Márcia. Todos os direitos reservados.</p>
+      <div className="mt-6 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center px-4">
+        <p className="text-sm text-center md:text-left">
+          © 2024 Márcia. Todos os direitos reservados.
+        </p>
         <a
           href="#"
-          className="text-sm text-gray-400 hover:text-white transition-colors duration-300 flex items-center mt-4 md:mt-0 mr-10"
+          className="text-sm text-gray-400 hover:text-white transition-colors duration-300 flex items-center mt-4 md:mt-0"
         >
           <FaArrowUp className="mr-2" /> {/* Ícone de Flecha */}
           Voltar ao Topo
