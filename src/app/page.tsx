@@ -70,14 +70,9 @@ export default function Home() {
               grandes Empresas.
             </p>
             <p className="mt-4 text-lg md:text-xl">
-              Com uma paixão por inovação e um foco incansável na qualidade,
-              entrego soluções que fazem a diferença, desde a concepção até a
-              implementação final.
-            </p>
-            <p className="mt-4 text-lg md:text-xl">
-              Especializada em transformar complexidade em simplicidade, meu
-              foco é criar experiências digitais intuitivas que encantam os
-              usuários e impulsionam resultados de negócios.
+              Especializada em transformar complexidade em simplicidade,
+              trabalhando na concepção até a implementação final de uma forma
+              clara e com foco no usuário final.
             </p>
           </div>
         </div>
