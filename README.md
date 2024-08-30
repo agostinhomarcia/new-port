@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📁 Márcia Agostinho - Portfolio
 
-## Getting Started
+#### Descrição
 
-First, run the development server:
+Este é o portfólio oficial de Márcia Agostinho, uma desenvolvedora FullStack especializada em criar soluções inovadoras e intuitivas para a web e mobile. Este projeto foi construído utilizando o framework Next.js, que combina a facilidade de uso do React com poderosas funcionalidades de renderização do lado do servidor (SSR), resultando em uma aplicação rápida, segura e altamente otimizada.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+#### 🚀 Demonstração ao Vivo
+
+Você pode acessar a versão ao vivo deste portfólio [aqui](https://new-port-swart.vercel.app/).
+
+<p align="center">
+   <img src="/public/port.png" alt="portfolio" width="850"/>
+</p>
+
+#### 🛠️ Tecnologias Utilizadas
+
+Next.js 14: Framework principal para a criação do portfólio.
+React.js: Biblioteca JavaScript para a construção da interface do usuário.
+TypeScript: Linguagem que adiciona tipagem estática ao JavaScript.
+Tailwind CSS: Framework CSS utilitário para estilização responsiva e customizada.
+Framer Motion: Biblioteca para animações suaves e interações dinâmicas.
+React Icons: Conjunto de ícones utilizados na interface.
+Vercel: Plataforma de hospedagem para o deploy contínuo e rápido.
+
+#### 📄 Funcionalidades
+
+Seção Sobre: Descrição detalhada sobre a carreira e as habilidades de Márcia Agostinho.
+Projetos: Uma galeria interativa de projetos com links para os repositórios do GitHub e versões ao vivo.
+Contato: Formulário de contato funcional integrado com WhatsApp, permitindo que visitantes entrem em contato diretamente.
+Política de Privacidade: Página de política de privacidade explicando o uso de dados e informações dos visitantes.
+
+#### 📂 Estrutura do Projeto
+
+bash
+Copiar código
+my-portfolio/
+├── public/
+│ ├── favicon.png
+│ ├── project1.png
+│ ├── project2.png
+│ ├── ... (Outros recursos de imagem)
+├── src/
+│ ├── app/
+│ │ ├── about/
+│ │ ├── contact/
+│ │ ├── privacy/
+│ │ ├── projects/
+│ │ ├── components/
+│ │ │ ├── Navbar.tsx
+│ │ │ ├── Footer.tsx
+│ │ ├── layout.tsx
+│ │ ├── page.tsx
+│ ├── styles/
+│ │ ├── globals.css
+├── .eslintrc.json
+├── next.config.js
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vercel.json
+
+#### 🧩 Instalação e Uso
+
+Pré-requisitos
+Certifique-se de ter o Node.js e o npm/yarn instalados na sua máquina.
+
+Passos para Instalação
+Clone o Repositório:
+
+bash
+Copiar código
+git clone https://github.com/agostinhomarcia/my-portfolio.git
+Instale as Dependências:
+
+Se estiver usando npm:
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ou com yarn:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+yarn install
 
-## Learn More
+Execute o Projeto Localmente:
 
-To learn more about Next.js, take a look at the following resources:
+Se estiver usando npm:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm run dev
 
-## Deploy on Vercel
+Ou com yarn:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+yarn dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Acesse o Projeto:
+
+Abra seu navegador e vá para http://localhost:3000 para visualizar o portfólio.
+```
+
+#### ⚙️ Deploy
+
+Este projeto é configurado para ser facilmente implantado no Vercel. Ao fazer o push do seu código para o GitHub, o Vercel automaticamente criará um deploy para o seu site. Para configurar o deploy contínuo:
+
+Conecte o Repositório ao Vercel:
+
+Siga as instruções no Vercel para conectar seu repositório.
+Configure as Variáveis de Ambiente (se necessário):
+
+No painel do Vercel, vá para "Settings" do seu projeto e adicione as variáveis de ambiente que seu projeto necessita.
+Realize o Deploy:
+
+Todo commit para a branch principal (ex.: main) disparará um novo deploy.
+
+#### 📝 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+👩‍💻 Autora
+
+Márcia Agostinho
+
+- [LinkedIn](https://www.linkedin.com/in/marcia-agostinho-developer/)
+- [GitHub](https://github.com/agostinhomarcia)
