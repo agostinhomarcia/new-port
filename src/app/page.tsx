@@ -8,7 +8,10 @@ export default function Home() {
     <>
       <div
         className="relative min-h-screen flex flex-col items-center justify-center bg-cover bg-center p-4"
-        style={{ backgroundImage: "url('/herobg.png')" }}
+        style={{
+          backgroundImage:
+            "url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjk5YmVoems1NHgycGpyazJiazEwaGVrYm4ydWhkd3o2bms4d3djZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HBj0TxHeNBDVURw3jp/giphy.gif')",
+        }}
       >
         <div className="absolute top-12 left-12 w-20 h-20 md:w-32 md:h-32">
           <Image
