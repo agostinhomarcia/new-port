@@ -42,6 +42,54 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
+                src="/pulse.png"
+                alt="Projeto 1"
+                className="w-full h-48 object-cover"
+                width={150}
+                height={150}
+              />
+            </motion.div>
+            <h2 className="text-2xl font-bold mb-2">PeoplePulse</h2>
+            <p className="text-gray-600 mb-4">
+              Organize, conecte e potencialize suas interações, criando
+              relacionamentos poderosos
+            </p>
+            <div className="flex space-x-4">
+              <Link
+                href="https://contact-pied-two.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaExternalLinkAlt size={24} />
+              </Link>
+              <Link
+                href="https://github.com/agostinhomarcia/contact"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaGithub size={24} />
+              </Link>
+            </div>
+          </motion.div>
+
+          <motion.div
+            className="bg-gray-400 shadow-md rounded-lg p-6"
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <motion.div
+              className="overflow-hidden rounded-md"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.4 }}
+            >
+              <Image
                 src="/project1.png"
                 alt="Projeto 1"
                 className="w-full h-48 object-cover"
@@ -50,7 +98,7 @@ export default function Projects() {
               />
             </motion.div>
             <h2 className="text-2xl font-bold mb-2">DarkBeats</h2>
-            <p className="text-gray-600 mb-4">Descrição do Projeto 1.</p>
+            <p className="text-gray-600 mb-4">Ecomerce de eletronicos</p>
             <div className="flex space-x-4">
               <Link
                 href="https://dark-theta.vercel.app"
@@ -96,7 +144,12 @@ export default function Projects() {
               />
             </motion.div>
             <h2 className="text-2xl font-bold mb-2">FSW Barber</h2>
-            <p className="text-gray-600 mb-4">Descrição do Projeto 2.</p>
+            <p className="text-gray-600 mb-4">
+              Gestão para Barbearias é um sistema completo para atender às
+              necessidades de barbearias, salões de beleza e estúdios de
+              tatuagem, facilitando o gerenciamento de serviços, agendamentos e
+              interações com clientes.
+            </p>
             <div className="flex space-x-4">
               <Link
                 href="https://fsw-barber-lilac.vercel.app/"
@@ -142,7 +195,9 @@ export default function Projects() {
               />
             </motion.div>
             <h2 className="text-2xl font-bold mb-2">Burguer</h2>
-            <p className="text-gray-600 mb-4">Descrição do Projeto 1.</p>
+            <p className="text-gray-600 mb-4">
+              Sistema completo para sua lanchonete
+            </p>
             <div className="flex space-x-4">
               <Link
                 href="https://agostinhomarcia.github.io/projeto-burguer/"
@@ -231,8 +286,11 @@ export default function Projects() {
                 height={150}
               />
             </motion.div>
-            <h2 className="text-2xl font-bold mb-2">Ecommerce</h2>
-            <p className="text-gray-600 mb-4">Descrição do Projeto</p>
+            <h2 className="text-2xl font-bold mb-2">Cart</h2>
+            <p className="text-gray-600 mb-4">
+              Vitrine de produtos disponivéis, avaliações, carinho de compra,
+              como soma total dos pedidos.
+            </p>
             <div className="flex space-x-4">
               <Link
                 href="https://serene-bublanina-f2cd1c.netlify.app/"
@@ -278,7 +336,10 @@ export default function Projects() {
               />
             </motion.div>
             <h2 className="text-2xl font-bold mb-2">Clinica Veterinária</h2>
-            <p className="text-gray-600 mb-4">Descrição do Projeto</p>
+            <p className="text-gray-600 mb-4">
+              Projeto de clínica veterinária com agendamento de consultas,
+              localização, valores e serviços. Aqui seu pet fica mais é feliz
+            </p>
             <div className="flex space-x-4">
               <Link
                 href="https://candid-pasca-bb5390.netlify.app/"
@@ -324,7 +385,9 @@ export default function Projects() {
               />
             </motion.div>
             <h2 className="text-2xl font-bold mb-2">Agencia Digital</h2>
-            <p className="text-gray-600 mb-4">Descrição do Projeto</p>
+            <p className="text-gray-600 mb-4">
+              Um webSite para tranformar seu negócio em uma vitrine
+            </p>
             <div className="flex space-x-4">
               <Link
                 href="https://digital-agency-rust.vercel.app/"
