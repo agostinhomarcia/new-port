@@ -74,6 +74,52 @@ export default function Projects() {
             </div>
           </motion.div>
 
+          {/* Projeto 2 */}
+          <motion.div
+            className="bg-gray-400 shadow-md rounded-lg p-6"
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <motion.div
+              className="overflow-hidden rounded-md"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.4 }}
+            >
+              <Image
+                src="/driveNow.png"
+                alt="Projeto 1"
+                className="w-full h-48 object-cover"
+                width={150}
+                height={150}
+              />
+            </motion.div>
+            <h2 className="text-2xl font-bold mb-2">DriveNow</h2>
+            <p className="text-gray-600 mb-4">Reserve seu carro Agora!</p>
+            <div className="flex space-x-4">
+              <Link
+                href="https://car-reservation-zeta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaExternalLinkAlt size={24} />
+              </Link>
+              <Link
+                href="https://github.com/agostinhomarcia/car-reservation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaGithub size={24} />
+              </Link>
+            </div>
+          </motion.div>
+
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
