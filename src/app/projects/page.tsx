@@ -42,8 +42,55 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/pulse.png"
+                src="/buss.png"
                 alt="Projeto 1"
+                className="w-full h-48 object-cover"
+                width={150}
+                height={150}
+              />
+            </motion.div>
+            <h2 className="text-2xl font-bold mb-2">BusinessFlow</h2>
+            <p className="text-gray-600 mb-4">
+              Sistema para Controle de Gestão de Empresas e Parceiros
+            </p>
+            <div className="flex space-x-4">
+              <Link
+                href="https://buss-zeta.vercel.app/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaExternalLinkAlt size={24} />
+              </Link>
+              <Link
+                href="https://github.com/agostinhomarcia/buss"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaGithub size={24} />
+              </Link>
+            </div>
+          </motion.div>
+          {/* Projeto 2 */}
+          <motion.div
+            className="bg-gray-400 shadow-md rounded-lg p-6"
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <motion.div
+              className="overflow-hidden rounded-md"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.4 }}
+            >
+              <Image
+                src="/pulse.png"
+                alt="Projeto 2"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -74,7 +121,7 @@ export default function Projects() {
             </div>
           </motion.div>
 
-          {/* Projeto 2 */}
+          {/* Projeto 3 */}
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
@@ -136,8 +183,8 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/project1.png"
-                alt="Projeto 1"
+                src="/dart.png"
+                alt="Projeto 3"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -165,7 +212,7 @@ export default function Projects() {
             </div>
           </motion.div>
 
-          {/* Projeto 2 - Sem Flip */}
+          {/* Projeto 4*/}
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
@@ -182,8 +229,8 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/project2.png"
-                alt="Projeto 2"
+                src="/fswBarber.png"
+                alt="Projeto 4"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -216,7 +263,7 @@ export default function Projects() {
             </div>
           </motion.div>
 
-          {/* Projeto 3 */}
+          {/* Projeto 5 */}
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
@@ -233,8 +280,8 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/project3.png"
-                alt="Projeto 1"
+                src="/burguer.png"
+                alt="Projeto 5"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -263,7 +310,7 @@ export default function Projects() {
               </Link>
             </div>
           </motion.div>
-          {/* Projeto 4 */}
+          {/* Projeto 6 */}
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
@@ -280,8 +327,8 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/project4.png"
-                alt="Projeto 1"
+                src="/actual.png"
+                alt="Projeto 6"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -308,7 +355,7 @@ export default function Projects() {
               </Link>
             </div>
           </motion.div>
-          {/* Projeto 5 */}
+          {/* Projeto 7 */}
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
@@ -325,8 +372,8 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/project5.png"
-                alt="Projeto 1"
+                src="/cart.png"
+                alt="Projeto 7"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -357,7 +404,7 @@ export default function Projects() {
             </div>
           </motion.div>
 
-          {/* Projeto 6 */}
+          {/* Projeto 8 */}
           <motion.div
             className="bg-gray-400 shadow-md rounded-lg p-6"
             whileHover={{
@@ -374,8 +421,8 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Image
-                src="/project6.png"
-                alt="Projeto 1"
+                src="/vet.png"
+                alt="Projeto 8"
                 className="w-full h-48 object-cover"
                 width={150}
                 height={150}
@@ -397,54 +444,6 @@ export default function Projects() {
               </Link>
               <Link
                 href="https://github.com/agostinhomarcia/projeto-doguinho"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
-              >
-                <FaGithub size={24} />
-              </Link>
-            </div>
-          </motion.div>
-
-          {/* Projeto 7 */}
-          <motion.div
-            className="bg-gray-400 shadow-md rounded-lg p-6"
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
-            }}
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <motion.div
-              className="overflow-hidden rounded-md"
-              whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.4 }}
-            >
-              <Image
-                src="/project7.png"
-                alt="Projeto 1"
-                className="w-full h-48 object-cover"
-                width={150}
-                height={150}
-              />
-            </motion.div>
-            <h2 className="text-2xl font-bold mb-2">Agencia Digital</h2>
-            <p className="text-gray-600 mb-4">
-              Um webSite para tranformar seu negócio em uma vitrine
-            </p>
-            <div className="flex space-x-4">
-              <Link
-                href="https://digital-agency-rust.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
-              >
-                <FaExternalLinkAlt size={24} />
-              </Link>
-              <Link
-                href="https://github.com/agostinhomarcia/digital-agency"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800"
