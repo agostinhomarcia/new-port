@@ -1,125 +1,131 @@
-## 📁 Márcia Agostinho - Portfolio
-
-#### Descrição
-
-Este é o portfólio oficial de Márcia Agostinho, uma desenvolvedora FullStack especializada em criar soluções inovadoras e intuitivas para a web e mobile. Este projeto foi construído utilizando o framework Next.js, que combina a facilidade de uso do React com poderosas funcionalidades de renderização do lado do servidor (SSR), resultando em uma aplicação rápida, segura e altamente otimizada.
-
-#### 🚀 Demonstração ao Vivo
-
-Você pode acessar a versão ao vivo deste portfólio [aqui](https://new-port-swart.vercel.app/).
-
 <p align="center">
-   <img src="/public/port.png" alt="portfolio" width="850"/>
+  <img src="/public/port.png" alt="Portfolio Preview" width="100%" />
 </p>
 
-#### 🛠️ Tecnologias Utilizadas
+<h1 align="center">🚀 Márcia Agostinho - Portfolio</h1>
 
-Next.js 14: Framework principal para a criação do portfólio.
-React.js: Biblioteca JavaScript para a construção da interface do usuário.
-TypeScript: Linguagem que adiciona tipagem estática ao JavaScript.
-Tailwind CSS: Framework CSS utilitário para estilização responsiva e customizada.
-Framer Motion: Biblioteca para animações suaves e interações dinâmicas.
-React Icons: Conjunto de ícones utilizados na interface.
-Vercel: Plataforma de hospedagem para o deploy contínuo e rápido.
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/agostinhomarcia/my-portfolio?color=00875F&logo=typescript">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/agostinhomarcia/my-portfolio?color=00875F">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/agostinhomarcia/my-portfolio?color=00875F">
+  <a href="https://github.com/agostinhomarcia/my-portfolio/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/agostinhomarcia/my-portfolio?color=00875F">
+  </a>
+</p>
 
-#### 📄 Funcionalidades
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-demonstração">Demonstração</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-instalação">Instalação</a> •
+  <a href="#-deploy">Deploy</a> •
+  <a href="#-licença">Licença</a>
+</p>
 
-Seção Sobre: Descrição detalhada sobre a carreira e as habilidades de Márcia Agostinho.
-Projetos: Uma galeria interativa de projetos com links para os repositórios do GitHub e versões ao vivo.
-Contato: Formulário de contato funcional integrado com WhatsApp, permitindo que visitantes entrem em contato diretamente.
-Política de Privacidade: Página de política de privacidade explicando o uso de dados e informações dos visitantes.
+## 💻 Sobre o Projeto
 
-#### 📂 Estrutura do Projeto
+Este é meu portfólio profissional, desenvolvido com Next.js 14 e TypeScript. O projeto foi construído com foco em performance, acessibilidade e experiência do usuário, utilizando as mais recentes tecnologias do ecossistema React.
 
-```
+### ✨ Destaques
 
-my-portfolio/
-├── public/
-│ ├── favicon.png
-│ ├── project1.png
-│ ├── project2.png
-│ ├── ... (Outros recursos de imagem)
-├── src/
-│ ├── app/
-│ │ ├── about/
-│ │ ├── contact/
-│ │ ├── privacy/
-│ │ ├── projects/
-│ │ ├── components/
-│ │ │ ├── Navbar.tsx
-│ │ │ ├── Footer.tsx
-│ │ ├── layout.tsx
-│ │ ├── page.tsx
-│ ├── styles/
-│ │ ├── globals.css
-├── .eslintrc.json
-├── next.config.js
-├── package.json
-├── README.md
-├── tsconfig.json
-└── vercel.json
-```
+- **Design Responsivo**: Adaptação perfeita para todos os tamanhos de tela
+- **Animações Suaves**: Utilizando Framer Motion para transições fluidas
+- **Performance Otimizada**: Pontuação alta no Lighthouse
+- **SEO Otimizado**: Implementação de meta tags e estrutura semântica
+- **Acessibilidade**: Seguindo as melhores práticas WCAG
 
-#### 🧩 Instalação e Uso
+## 🎯 Demonstração
 
-Pré-requisitos
-Certifique-se de ter o Node.js e o npm/yarn instalados na sua máquina.
+Acesse a versão live do portfólio: [Márcia Dev Portfolio](https://new-port-swart.vercel.app/)
 
-Passos para Instalação
-Clone o Repositório:
+## 🛠 Tecnologias
 
-bash
-Copiar código
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Icons" />
+</div>
+
+## 🔥 Funcionalidades
+
+### 📱 Interface
+
+- Design responsivo e mobile-first
+- Tema escuro moderno
+- Animações suaves e interativas
+- Loading states e feedback visual
+
+### 📂 Seções
+
+- **Home**: Apresentação inicial e chamada para ação
+- **Sobre**: Informações profissionais e habilidades
+- **Projetos**: Galeria de projetos com links e descrições
+- **Contato**: Formulário de contato integrado com WhatsApp
+
+## ⚙️ Instalação
+
+```bash
+# Clone o repositório
 git clone https://github.com/agostinhomarcia/my-portfolio.git
-Instale as Dependências:
 
-Se estiver usando npm:
+# Acesse a pasta do projeto
+cd my-portfolio
 
-```
-
+# Instale as dependências
 npm install
-
-Ou com yarn:
-
+# ou
 yarn install
 
-Execute o Projeto Localmente:
-
-Se estiver usando npm:
-
-
+# Inicie o servidor de desenvolvimento
 npm run dev
-
-Ou com yarn:
-
+# ou
 yarn dev
 
-Acesse o Projeto:
-
-Abra seu navegador e vá para http://localhost:3000 para visualizar o portfólio.
+# O servidor será iniciado em http://localhost:3000
 ```
 
-#### ⚙️ Deploy
+## 🚀 Deploy
 
-Este projeto é configurado para ser facilmente implantado no Vercel. Ao fazer o push do seu código para o GitHub, o Vercel automaticamente criará um deploy para o seu site. Para configurar o deploy contínuo:
+O projeto está configurado para deploy automático na Vercel. Cada push para a branch main dispara um novo deploy.
 
-Conecte o Repositório ao Vercel:
+### Configuração do Deploy
 
-Siga as instruções no Vercel para conectar seu repositório.
-Configure as Variáveis de Ambiente (se necessário):
+1. Fork este repositório
+2. Conecte com sua conta Vercel
+3. Configure as variáveis de ambiente necessárias
+4. Deploy automático a cada push
 
-No painel do Vercel, vá para "Settings" do seu projeto e adicione as variáveis de ambiente que seu projeto necessita.
-Realize o Deploy:
+## 📂 Estrutura do Projeto
 
-Todo commit para a branch principal (ex.: main) disparará um novo deploy.
+```
+my-portfolio/
+├── public/           # Arquivos estáticos
+├── src/
+│   ├── app/         # Páginas e componentes
+│   ├── components/  # Componentes reutilizáveis
+│   ├── styles/      # Estilos globais
+│   └── utils/       # Funções utilitárias
+├── next.config.js   # Configuração Next.js
+└── tailwind.config.js # Configuração Tailwind
+```
 
-#### 📝 Licença
+## 📝 Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-👩‍💻 Autora
+## 👩‍💻 Autora
 
-Márcia Agostinho
+<img src="https://avatars.githubusercontent.com/u/114631584?v=4" width="100px" alt="Márcia Agostinho"/>
+<div>
+ <a href="https://www.linkedin.com/in/marcia-agostinho-developer/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ <a href="mailto:marciaagostinho.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
 
-- [LinkedIn](https://www.linkedin.com/in/marcia-agostinho-developer/)
-- [GitHub](https://github.com/agostinhomarcia)
+---
+
+<p align="center">
+  Feito com 💚 por Márcia Agostinho
+</p>
