@@ -62,7 +62,7 @@ export default function Home() {
             Márcia Agostinho
           </h1>
           <p className="text-lg md:text-2xl  font-semibold">
-            FullStack Developer
+            FrontEnd Developer
           </p>
           <div className="text-left text-6xl">
             <p className="mt-4 text-lg md:text-xl">

@@ -29,7 +29,7 @@ export default function Footer() {
             Sobre
           </h3>
           <p className="text-gray-300 leading-relaxed">
-            Desenvolvedora FullStack apaixonada por criar soluções inovadoras e
+            Desenvolvedora FrontEnd apaixonada por criar soluções inovadoras e
             intuitivas. Transformando ideias em experiências digitais que fazem
             a diferença.
           </p>

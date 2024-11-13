@@ -7,9 +7,9 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Márcia Agostinho - FullStack Developer",
+  title: "Márcia Agostinho - FrontEnd Developer",
   description:
-    "Portfolio de Márcia Agostinho, desenvolvedora FullStack especializada em criar soluções inovadoras e intuitivas para web e mobile.",
+    "Portfolio de Márcia Agostinho, desenvolvedora FrontEnd especializada em criar soluções inovadoras e intuitivas para web e mobile.",
   icons: {
     icon: "/favicon.png",
   },
